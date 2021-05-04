@@ -1,0 +1,36 @@
+---
+title: "Cálculo subconjuntos de un conjunto"
+author: "2020-2021"
+date: "4/5/2021"
+output:
+  html_document: 
+    toc: yes
+    theme: paper
+    number_sections: yes
+  word_document: 
+    toc: yes
+  pdf_document: 
+    toc: yes
+    number_sections: yes
+---
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cálculo de número de hojas  un arbol de reglas de tamaño n
+
+Calulemos las hojas para nivel k de un itemset de  cardinalidad $n$
+
+
+
+```{r}
+n=5
+tabla=choose(5,c(0:5))
+names(tabla)=c(0:5)
+knitr::kable(tabla)
+```
+
